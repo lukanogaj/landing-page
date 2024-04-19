@@ -1,7 +1,13 @@
 import "./App.css";
+import Layout from "./components/Layout";
+import Hero from "./components/Hero";
 
 function App() {
-	return <div>Landing Page</div>;
+	return (
+		<Layout>
+			<Hero />
+		</Layout>
+	);
 }
 
 export default App;
