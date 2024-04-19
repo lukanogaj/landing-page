@@ -9,7 +9,7 @@ const Navbar = () => {
 				<div>Contact</div>
 			</div>
 			<div className={styles.pageHeading}>
-				<h1>Landing</h1>
+				<h1 className={styles.navHeading}>Landing</h1>
 			</div>
 			<div className={styles.btnNavbar}>
 				<button>Buy Now</button>

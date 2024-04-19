@@ -7,14 +7,15 @@ const HeroContent = () => {
 				<h1>Introduce Your Product Quickly & Effectively</h1>
 			</div>
 			<div className={styles.heroParagraph}>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
-				similique atque distinctio nihil quo maiores aspernatur expedita fugiat
-				ut placeat sequi assumenda ipsam, voluptatum quia soluta optio totam
-				consequuntur cumque?
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente culpa
+				hic dicta maiores architecto molestiae laborum, iste quas ullam illo rem
+				cum laboriosam nesciunt molestias velit quidem sint! Laudantium
+				voluptate atque, mollitia deleniti quis libero nostrum aperiam nam eos
+				saepe?
 			</div>
 			<div className={styles.heroBtn}>
-				<button>Purchase UI Kit</button>
-				<button>Learn More</button>
+				<button className={styles.btnPurchase}>Purchase UI Kit</button>
+				<button className={styles.btnLearn}>Learn More</button>
 			</div>
 		</div>
 	);
