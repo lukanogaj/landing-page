@@ -1,10 +1,7 @@
 .hero {
 	display: flex;
-	flex-direction: column;
+	// flex-direction: column;
 	width: 80%;
-	height: 100%;
-	background-image: url(../media/Icons/Group.png);
-	background-position: 78% 150px;
-	background-repeat: no-repeat;
-	// background-size: cover;
+	flex-wrap: wrap;
+	height: 100vh;
 }
