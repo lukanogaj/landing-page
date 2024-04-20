@@ -24,7 +24,7 @@ const SectionOne = () => {
 					<div className={styles.iconsParagraph}>
 						<p>
 							Lorem ipsum dolor sit amet consectetur <br />
-							adipisicing elit. Rerum officiis quis nesciunt? <br /> Atque!
+							adipisicing elit. Rerum officiis quis nesciunt? Atque!
 						</p>
 					</div>
 				</div>
@@ -35,8 +35,7 @@ const SectionOne = () => {
 						<div className={styles.iconsParagraph}>
 							<p>
 								Lorem, ipsum dolor sit amet consectetur <br /> adipisicing elit.
-								Saepe amet recusandae ducimus
-								<br /> voluptatem.
+								Saepe amet recusandae ducimus voluptatem.
 							</p>
 						</div>
 					</div>
