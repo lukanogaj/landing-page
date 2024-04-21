@@ -12,9 +12,10 @@ body {
 	justify-content: space-between;
 	align-items: centre;
 	align-content: center;
+	flex-wrap: wrap;
 	width: 100vw;
 	height: 100vh;
-	overflow: scroll;
+	/* overflow: scroll; */
 	font-family: "Roboto", sans-serif;
 	/* background-color: #eef3f9; */
 }
