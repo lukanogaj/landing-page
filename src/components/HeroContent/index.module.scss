@@ -1,12 +1,12 @@
 .heroContent {
 	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	width: 100%;
-	background-image: url(../media/Icons/group.png);
+	height: 100%;
+	background-image: url(../media/Icons/designer_1.png);
 	background-position: 78% 10px;
 	background-repeat: no-repeat;
-	margin-top: 80px;
 
 	.heroHeading {
 		display: block;
@@ -25,6 +25,9 @@
 		line-height: 2;
 		color: #505f98;
 	}
+
+	// .heroContentImage {
+	// }
 }
 
 h1 {
@@ -35,29 +38,29 @@ h1 {
 	line-height: 1.5;
 }
 
-.heroBtn {
-	display: flex;
-	flex-direction: start;
-	justify-content: space-between;
-	width: 490px;
+// .heroBtn {
+// 	display: flex;
+// 	flex-direction: start;
+// 	justify-content: space-between;
+// 	width: 490px;
 
-	.btnPurchase {
-		background-color: #111b47;
-	}
+// 	.btnPurchase {
+// 		background-color: #111b47;
+// 	}
 
-	.btnLearn {
-		color: #091133;
-		border: solid 2px;
-	}
-}
+// 	.btnLearn {
+// 		color: #091133;
+// 		border: solid 2px;
+// 	}
+// }
 
-button {
-	width: 190px;
-	height: 36px;
-	color: #fff;
-	letter-spacing: 0.1rem;
-	font-size: 14px;
-	border: none;
-	border-radius: 4px;
-	padding: 10px;
-}
+// button {
+// 	width: 190px;
+// 	height: 36px;
+// 	color: #fff;
+// 	letter-spacing: 0.1rem;
+// 	font-size: 14px;
+// 	border: none;
+// 	border-radius: 4px;
+// 	padding: 10px;
+// }
