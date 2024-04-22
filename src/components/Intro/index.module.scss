@@ -1,27 +1,29 @@
 .intro {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	flex-direction: column;
 	align-items: center;
 	height: 100vh;
 	width: 100vw;
-	margin: auto;
-
-	.introContent {
-		width: 50%;
-	}
+	margin-bottom: 100px;
 
 	.introText {
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
 		height: 100%;
+		margin-bottom: 15rem;
+	}
+
+	.introContent {
+		width: 50%;
 	}
 
 	.introIcon {
 		width: 50%;
-		background-image: url(../media/Icons/lotos.png);
-		background-position: 78% 10px;
-		background-repeat: no-repeat;
+		// background-image: url(../media/Icons/lotos.png);
+		// background-position: 78% 10px;
+		// background-repeat: no-repeat;
 	}
 
 	.introParagraph {
