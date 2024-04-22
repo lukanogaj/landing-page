@@ -1,6 +1,7 @@
 import pictureOne from "../media/Icons/intro1.png";
 import pictureTwo from "../media/Icons/intro2.png";
 import pictureThree from "../media/Icons/intro3.png";
+import pictureFour from "../media/Icons/designer_1.png";
 
 const dataForIntro = [
 	{
