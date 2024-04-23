@@ -16,13 +16,14 @@ const Intro = () => {
 						<div className={styles.introParagraph}>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
 							culpa hic dicta maiores architecto molestiae laborum, iste quas
-							ullam illo rem
+							ullam illo rem cum laboriosam nesciunt molestias velit <br />{" "}
 							<br />
-							<br />
-							cum laboriosam nesciunt molestias velit quidem sint! Laudantium
-							voluptate atque, mollitia deleniti quis libero nostrum aperiam nam
-							eos saepe?
+							quidem sint! Laudantium voluptate atque, mollitia deleniti quis
+							libero nostrum aperiam nam eos saepe?
 						</div>
+						{card.buttonLabel ? (
+							<button className={styles.introButton}>{card.buttonLabel}</button>
+						) : null}
 					</div>
 				</div>
 			))}

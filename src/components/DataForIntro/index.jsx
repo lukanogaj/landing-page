@@ -24,6 +24,7 @@ const dataForIntro = [
 		image: pictureThree,
 		paragraph:
 			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem ullam nostrum autem enim, repellat expedita, dolorum suscipit quo possimus perferendis accusamus illo, beatae saepe? Repudiandae, ratione nam libero, porro dolores inventore non consequatur consectetur enim vel maiores sequi, quaerat velit.",
+		buttonLabel: "Purchase Now",
 	},
 ];
 

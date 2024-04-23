@@ -4,7 +4,7 @@ import HeroContent from "../HeroContent";
 import SectionOne from "../SectionOne";
 import Intro from "../Intro";
 
-import PriceCard from "../PriceCard";
+// import PriceCard from "../PriceCard";
 
 const Hero = () => {
 	return (
@@ -13,7 +13,7 @@ const Hero = () => {
 			<HeroContent />
 			<SectionOne />
 			<Intro />
-			<PriceCard />
+			{/* <PriceCard /> */}
 		</div>
 	);
 };
