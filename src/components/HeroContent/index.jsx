@@ -1,9 +1,10 @@
 import styles from "./index.module.scss";
-// import dataForHero from "../DataForHero";
+import Navbar from "../NavBar";
 
 const HeroContent = () => {
 	return (
 		<div className={styles.heroContent}>
+			<Navbar />
 			<div className={styles.textHero}>
 				<div className={styles.heroHeading}>
 					<h1>Introduce Your Product Quickly & Effectively</h1>

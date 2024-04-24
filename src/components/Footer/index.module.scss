@@ -1,0 +1,50 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: #e7ecff;
+	z-index: -5;
+
+	.footerHeading {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		margin-top: auto;
+		height: 200px;
+		width: 85%;
+		border-bottom: solid 2px #cdd1d4;
+	}
+
+	.footerNavbar {
+		display: flex;
+		// flex-direction: column;
+		justify-content: space-between;
+		height: 180px;
+		width: 85%;
+	}
+
+	.footerNav {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		align-items: center;
+		width: 265px;
+		height: 65px;
+		color: #929ecc;
+	}
+	.socialIcons {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		align-items: center;
+		width: 265px;
+		height: 65px;
+		color: #929ecc;
+	}
+}
