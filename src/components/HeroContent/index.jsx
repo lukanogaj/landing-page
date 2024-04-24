@@ -21,7 +21,6 @@ const HeroContent = () => {
 					<button className={styles.btnLearn}>Learn More</button>
 				</div>
 			</div>
-			<div className={styles.heroContentImage}></div>
 		</div>
 	);
 };
