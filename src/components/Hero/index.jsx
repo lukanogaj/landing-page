@@ -9,7 +9,6 @@ import Footer from "../Footer";
 const Hero = () => {
 	return (
 		<div className={styles.hero}>
-			{/* <Navbar /> */}
 			<HeroContent />
 			<SectionOne />
 			<Intro />
