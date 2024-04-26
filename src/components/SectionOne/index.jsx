@@ -9,11 +9,11 @@ const SectionOne = () => {
 				</div>
 				<div className={styles.sectionOneParagraph}>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-					culpa hic dicta maiores architecto molestiae laborum, iste quas ullam
-					illo rem <br />
-					cum laboriosam nesciunt molestias velit quidem sint! Laudantium
-					voluptate atque, mollitia deleniti quis libero nostrum aperiam nam eos
-					saepe?
+					culpa <br /> hic dicta maiores architecto molestiae laborum, iste quas
+					ullam illo rem <br />
+					<br /> cum laboriosam nesciunt molestias velit quidem sint! Laudantium
+					voluptate atque, mollitia <br /> deleniti quis libero nostrum aperiam
+					nam eos saepe?
 				</div>
 			</div>
 			<div className={styles.icons}>

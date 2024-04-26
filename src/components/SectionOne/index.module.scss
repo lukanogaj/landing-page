@@ -1,60 +1,79 @@
 .sectionOne {
 	display: flex;
 	flex-direction: column;
-	height: 800px;
+	justify-content: space-around;
+	height: 100vh;
 	width: 100%;
-	padding-left: 60px;
-	margin-top: 100px;
+	padding-left: 160px;
+	margin-top: 600px;
+}
+
+.sectionOne::before {
+	content: "";
 	background-image: url(../media/Icons/undraw.png);
-	background-position: 43% 20px;
+	position: absolute;
+	top: 160%;
+	left: 55%;
+	bottom: 6;
+	right: 0;
+	width: 1000px;
+	height: 1000px;
+	background-position: contain;
 	background-repeat: no-repeat;
-	// background-size: cover;
+	background-size: 100%;
+	z-index: -1;
+}
 
-	.sectionOneText {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		height: 360px;
-		margin-left: 50px;
-		.sectioOneHeading {
-			display: block;
-			color: #091133;
-			height: 20px;
-			margin-top: 45px;
-			letter-spacing: 0.2rem;
-			font-size: 17px;
-			margin-bottom: 3rem;
-		}
-		.sectionOneParagraph {
-			width: 670px;
-			height: 330px;
-			font-size: 14px;
-			letter-spacing: 0.2rem;
-			line-height: 2;
-			color: #6f7cb2;
-		}
+.sectionOneText {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 300px;
+	// height: 360px;
+	// margin-left: 50px;
+	.sectioOneHeading {
+		display: block;
+		color: #091133;
+		// height: 20px;
+		// margin-top: 45px;
+		letter-spacing: 0.2rem;
+		font-size: 15px;
+		margin-bottom: 3rem;
+	}
+	.sectionOneParagraph {
+		height: 330px;
+		font-size: 17px;
+		letter-spacing: 0.2rem;
+		line-height: 2;
+		color: #6f7cb2;
+	}
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	margin-bottom: 210px;
+	// padding-bottom: 60px;
+	// margin: 0px 0px 20px 50px;
+	.icon {
+		width: 50px;
+		height: 50px;
+		margin-bottom: 20px;
+		background-position: 78% 10px;
+		background-repeat: no-repeat;
+		background-image: url(../media/Icons/Icon.png);
 	}
 
-	.icons {
-		display: flex;
-		justify-content: space-between;
-		width: 800px;
-		padding-bottom: 60px;
-		margin-left: 50px;
-		.icon {
-			width: 50px;
-			height: 50px;
-			margin-bottom: 10px;
-			background-position: 78% 10px;
-			background-repeat: no-repeat;
-			background-image: url(../media/Icons/Icon.png);
-		}
-
-		.iconsParagraph {
-			font-size: 12px;
-			letter-spacing: 0.2rem;
-			color: #5d6970;
-			padding-top: 10px;
-		}
+	.iconsParagraph {
+		font-size: 12px;
+		letter-spacing: 0.2rem;
+		color: #5d6970;
+		padding-top: 20px;
 	}
+}
+
+h1 {
+	font-size: 5rem;
 }
