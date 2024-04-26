@@ -26,14 +26,10 @@ const HeroContent = () => {
 						<button className={styles.btnLearn}>Learn More</button>
 					</div>
 				</div>
-				{/* <div className={styles.heroImage}>
+				<div className={styles.heroImage}>
 					<img src="../media/Icons/group.png" alt="" />
-				</div> */}
-				{/* <div className={styles.heroImage}></div> */}
+				</div>
 			</div>
-			{/* <div className={styles.heroImage}>
-				<img src="../media/Icons/group.png" alt="" />
-			</div> */}
 		</div>
 	);
 };

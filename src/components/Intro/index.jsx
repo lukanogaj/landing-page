@@ -14,10 +14,9 @@ const Intro = () => {
 							<h1>Light, Fast & PowerFull</h1>
 						</div>
 						<div className={styles.introParagraph}>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-							culpa hic dicta maiores architecto molestiae laborum, iste quas
-							ullam illo rem cum laboriosam nesciunt molestias velit <br />{" "}
-							<br />
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />{" "}
+							Sapiente culpa hic dicta maiores architecto molestiae laborum,
+							iste quas ullam illo rem cum laboriosam nesciunt molestias velit
 							quidem sint! Laudantium voluptate atque, mollitia deleniti quis
 							libero nostrum aperiam nam eos saepe?
 						</div>

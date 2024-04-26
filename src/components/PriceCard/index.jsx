@@ -3,18 +3,20 @@ import styles from "./index.module.scss";
 const PriceCard = () => {
 	return (
 		<div className={styles.priceCard}>
-			{/* <div className={styles.curvedBackground}> */}
+			<div className={styles.priceCardHead}>
 				<div className={styles.priceCardHeading}>
 					<h1>A Price To Suit Everyone</h1>
 				</div>
 				<div className={styles.priceCardParagraph}>
 					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio velit
-						at quas deserunt inventore repellat accusantium quam deleniti
-						veritatis ipsa! Maxime pariatur quidem, repellat at <br />{" "}
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio velit{" "}
+						at quas <br /> deserunt inventore repellat accusantium quam deleniti
+						veritatis ipsa! Maxime <br /> pariatur quidem, repellat at
 						voluptatem sapiente mollitia!
 					</p>
 				</div>
+			</div>
+			<div className={styles.priceCardSum}>
 				<div className={styles.headingTotal}>
 					<h1>$40</h1>
 				</div>
@@ -23,10 +25,10 @@ const PriceCard = () => {
 				</div>
 				<div className={styles.simple}>
 					<p>See, One price.Simple</p>
+					<div className={styles.purchaseBtn}>
+						<button>Purchase Now</button>
+					</div>
 				</div>
-				<div className={styles.purchaseBtn}>
-					<button>Purchase Now</button>
-				{/* </div> */}
 			</div>
 		</div>
 	);
