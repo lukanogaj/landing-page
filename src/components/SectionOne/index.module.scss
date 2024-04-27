@@ -4,7 +4,7 @@
 	justify-content: space-around;
 	height: 100vh;
 	width: 100%;
-	padding-left: 160px;
+	padding-left: 200px;
 	margin: 600px 0px 0px 600px;
 }
 
@@ -51,8 +51,11 @@
 .icons {
 	display: flex;
 	justify-content: space-between;
-	width: 800px;
+	width: 1000px;
 	margin-bottom: 210px;
+
+	// .titleContent {
+	// }
 
 	.icon {
 		width: 50px;
@@ -64,10 +67,11 @@
 	}
 
 	.iconsParagraph {
-		font-size: 12px;
-		letter-spacing: 0.2rem;
+		font-size: 17px;
+		letter-spacing: 0.1rem;
 		color: #5d6970;
 		padding-top: 20px;
+		// margin: 10px;
 	}
 }
 
