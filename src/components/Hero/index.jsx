@@ -5,6 +5,7 @@ import SectionOne from "../SectionOne";
 import Intro from "../Intro";
 import PriceCard from "../PriceCard";
 import Footer from "../Footer";
+import PartnerCard from "../PartnerCard";
 
 const Hero = () => {
 	return (
@@ -12,6 +13,7 @@ const Hero = () => {
 			<HeroContent />
 			<SectionOne />
 			<Intro />
+			<PartnerCard />
 			<PriceCard />
 			<Footer />
 		</div>
