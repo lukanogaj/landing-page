@@ -13,11 +13,12 @@ const HeroContent = () => {
 						</h1>
 					</div>
 					<div className={styles.heroParagraph}>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-						culpa hic dicta maiores architecto molestiae laborum, iste quas
-						ullam illo rem cum laboriosam nesciunt molestias velit quidem sint!
-						Laudantium voluptate atque, mollitia deleniti quis libero nostrum
-						aperiam nam eos saepe?
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat,
+						quod porro nemo, omnis ducimus voluptas harum hic voluptatum
+						assumenda accusamus quidem a enim quam tempore <br />
+						<br /> necessitatibus saepe nostrum neque accusantium? Perferendis
+						dolore dignissimos rerum magni dolorum culpa vel impedit
+						consequuntur.
 					</div>
 					<div className={styles.heroBtn}>
 						<button className={styles.btnPurchase}>Purchase UI Kit</button>

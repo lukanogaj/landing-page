@@ -1,10 +1,10 @@
 .heroContent {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: column;
 	width: 100%;
 	height: 100vh;
-	margin: 10px 0px 0px 500px;
+	margin-top: 243px;
 }
 
 .heroContent::before {
@@ -31,33 +31,25 @@
 .textHero {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
-	margin-bottom: 70px;
-	height: 700px;
 }
-.heroHeading {
-	display: block;
-	color: #091133;
-	letter-spacing: 0.2rem;
-}
-.heroParagraph {
-	width: 670px;
-	margin: 4rem 0 4rem 0;
-	font-size: 19px;
-	letter-spacing: 0.2rem;
-	line-height: 2;
-	color: #505f98;
-	height: 300px;
-}
-
+.heroHeading,
 h1 {
 	display: block;
+	height: 132px;
 	color: #091133;
-	letter-spacing: 0.3rem;
-	font-size: 5rem;
+	font-size: 50px;
+	letter-spacing: 0.1rem;
 	line-height: 1.5;
+	margin-bottom: 20px;
 }
-
+.heroParagraph {
+	height: 164px;
+	width: 538px;
+	font-size: 18px;
+	color: #505f98;
+	height: 300px;
+	line-height: 2rem;
+}
 .heroBtn {
 	display: flex;
 	flex-direction: start;
@@ -66,12 +58,18 @@ h1 {
 	padding-bottom: 180px;
 
 	.btnPurchase {
+		width: 190px;
+		height: 36px;
+		font-size: 16px;
 		background-color: #111b47;
 		border: none;
 		color: #fff;
 	}
 
 	.btnLearn {
+		width: 190px;
+		height: 36px;
+		font-size: 16px;
 		color: #091133;
 		border: none;
 		border: solid 2px #091133;
