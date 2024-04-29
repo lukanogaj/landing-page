@@ -8,59 +8,65 @@ const PartnerCard = () => {
 			<div className={styles.sectorPartner}>
 				<div className={styles.partnerCardText}>
 					<div className={styles.partnerCardHeading}>
-						<h1>Design & BUilt Your Own Landing Pages</h1>
+						<h1>Design & Built Your Own Landing Pages</h1>
 					</div>
-					<div className={styles.partnerCardparapgraph}>
+					<div className={styles.partnerCardParagraph}>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem neque
-							odio nostrum at eius harum temporibus, sapiente maiores unde! Id
-							nostrum temporibus quas possimus quod quibusdam commodi
-							doloremque? Optio culpa ducimus sapiente eius magni maxime
-							accusamus placeat magnam, explicabo aspernatur!
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+							ipsum illum. Doloribus nam dignissimos, commodi illo nobis laborum
+							corporis adipisci blanditiis molestiae cupiditate repellat
+							reiciendis sit minus sapiente perspiciatis quia quisquam, nisi
+							iure <br /> <br />
+							suscipit sint nulla et neque consequuntur? Minus beatae
+							accusantium nostrum minima quia tenetur rerum commodi at sunt!
 						</p>
 					</div>
 				</div>
 				{/* elemenets with icons */}
 				<div className={styles.partnerCardIcons}>
-					<div className={styles.iconsText}>
-						<div className={styles.icon}></div>
-						<h2>Title Goes Here</h2>
-						<div className={styles.iconsParagraph}>
-							<p>
-								Lorem ipsum dolor sit amet consectetur <br />
-								adipisicing elit. Rerum officiis quis nesciunt? Atque!
-							</p>
+					<div className={styles.iconsRow}>
+						<div className={styles.icons}>
+							<div className={styles.icon}></div>
+							<h2>Title Goes Here</h2>
+							<div className={styles.iconsParagraph}>
+								<p>
+									Lorem ipsum dolor sit amet consectetur <br />
+									adipisicing elit. Rerum officiis quis nesciunt? Atque!
+								</p>
+							</div>
+						</div>
+						<div className={styles.icons}>
+							<div></div>
+							<div className={styles.icon}></div>
+							<h2>Title Goes Here</h2>
+							<div className={styles.iconsParagraph}>
+								<p>
+									Lorem ipsum dolor sit amet consectetur <br />
+									adipisicing elit. Rerum officiis quis nesciunt? Atque!
+								</p>
+							</div>
 						</div>
 					</div>
-
-					<div className={styles.icons}>
-						<div className={styles.icon}></div>
-						<h2>Title Goes Here</h2>
-						<div className={styles.iconsParagraph}>
-							<p>
-								Lorem ipsum dolor sit amet consectetur <br />
-								adipisicing elit. Rerum officiis quis nesciunt? Atque!
-							</p>
+					<div className={styles.iconsRow}>
+						<div className={styles.icons}>
+							<div className={styles.icon}></div>
+							<h2>Title Goes Here</h2>
+							<div className={styles.iconsParagraph}>
+								<p>
+									Lorem ipsum dolor sit amet consectetur <br />
+									adipisicing elit. Rerum officiis quis nesciunt? Atque!
+								</p>
+							</div>
 						</div>
-					</div>
-					<div className={styles.icons}>
-						<div className={styles.icon}></div>
-						<h2>Title Goes Here</h2>
-						<div className={styles.iconsParagraph}>
-							<p>
-								Lorem ipsum dolor sit amet consectetur <br />
-								adipisicing elit. Rerum officiis quis nesciunt? Atque!
-							</p>
-						</div>
-					</div>
-					<div className={styles.icons}>
-						<div className={styles.icon}></div>
-						<h2>Title Goes Here</h2>
-						<div className={styles.iconsParagraph}>
-							<p>
-								Lorem ipsum dolor sit amet consectetur <br />
-								adipisicing elit. Rerum officiis quis nesciunt? Atque!
-							</p>
+						<div className={styles.icons}>
+							<div className={styles.icon}></div>
+							<h2>Title Goes Here</h2>
+							<div className={styles.iconsParagraph}>
+								<p>
+									Lorem ipsum dolor sit amet consectetur <br />
+									adipisicing elit. Rerum officiis quis nesciunt? Atque!
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
