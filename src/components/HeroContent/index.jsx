@@ -1,12 +1,10 @@
 import styles from "./index.module.scss";
-import Navbar from "../NavBar";
-import heroPicture from "../media/Icons/designer_1.png";
+// import Navbar from "../NavBar";
+// import heroPicture from "../media/Icons/designer_1.png";
 
 const HeroContent = () => {
 	return (
 		<div className={styles.heroContent}>
-			<Navbar />
-
 			<div className={styles.wrapper}>
 				<div className={styles.textHero}>
 					<div className={styles.heroHeading}>
