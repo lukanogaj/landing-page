@@ -2,21 +2,23 @@
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
-
-	width: 100%;
-	margin: 150px 0px 0px 500px;
+	width: 1440px;
+	height: 569px;
+	// margin: 150px 0px 0px 500px;
 
 	.introText {
 		display: flex;
 		justify-content: space-evenly;
 		width: 80%;
 		height: 100%;
-		margin-bottom: 17rem;
+		// margin-bottom: 17rem;
 	}
 
 	.introContent {
-		width: 50%;
-		padding-top: 40px;
+		width: 445px;
+		height: 228px;
+		background-color: yellow;
+		// padding-top: 40px;
 	}
 
 	.introIcon {
@@ -27,14 +29,14 @@
 		font-size: 19px;
 		color: #6f7cb2;
 		letter-spacing: 0.2rem;
-		margin-top: 30px;
+		// margin-top: 30px;
 		line-height: 2;
 	}
 
 	.introButton {
 		width: 190px;
 		height: 36px;
-		margin-top: 45px;
+		// margin-top: 45px;
 		background-color: #091133;
 		letter-spacing: 0.1rem;
 		font-size: 14px;

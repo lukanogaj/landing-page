@@ -11,7 +11,7 @@ const Intro = () => {
 					</div>
 					<div className={styles.introContent}>
 						<div className={styles.introHeading}>
-							<h1>Light, Fast & PowerFull</h1>
+							<h1 className={styles.headIntro}>Light, Fast & PowerFull</h1>
 						</div>
 						<div className={styles.introParagraph}>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
