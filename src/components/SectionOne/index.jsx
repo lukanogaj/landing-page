@@ -5,38 +5,36 @@ const SectionOne = () => {
 		<div className={styles.sectionOne}>
 			<div className={styles.sectionOneText}>
 				<div className={styles.sectioOneHeading}>
-					<h1>Light, Fast & PowerFull</h1>
+					<h1 className={styles.headSec}>Light, Fast & PowerFull</h1>
 				</div>
 				<div className={styles.sectionOneParagraph}>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-					culpa <br /> hic dicta maiores architecto molestiae laborum, iste quas
-					ullam illo rem <br />
-					<br /> cum laboriosam nesciunt molestias velit quidem sint! Laudantium
-					voluptate atque, mollitia <br /> deleniti quis libero nostrum aperiam
-					nam eos saepe?
+					culpa hic dicta maiores architecto molestiae laborum, iste quas ullam
+					illo rem cum laboriosam nesciunt <br /> <br /> molestias velit quidem
+					sint! Laudantium voluptate atque, mollitia deleniti quis libero
+					nostrum aperiam nam eos saepe?
 				</div>
 			</div>
+
 			<div className={styles.icons}>
 				<div className={styles.titleContent}>
 					<div className={styles.icon}></div>
-					<h2>Title Goes Here</h2>
+					<h2 className={styles.headIcon}>Title Goes Here</h2>
 					<div className={styles.iconsParagraph}>
 						<p>
-							Lorem ipsum dolor sit amet consectetur <br />
-							adipisicing elit. Rerum officiis quis nesciunt? Atque!
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+							officiis quis nesciunt? Atque!
 						</p>
 					</div>
 				</div>
-				<div>
-					<div className={styles.titleContent}>
-						<div className={styles.icon}></div>
-						<h2>Title Goes Here</h2>
-						<div className={styles.iconsParagraph}>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur <br /> adipisicing elit.
-								Saepe amet recusandae ducimus voluptatem.
-							</p>
-						</div>
+				<div className={styles.titleContent}>
+					<div className={styles.icon}></div>
+					<h2 className={styles.headIcon}>Title Goes Here</h2>
+					<div className={styles.iconsParagraph}>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+							amet recusandae ducimus voluptatem.
+						</p>
 					</div>
 				</div>
 			</div>

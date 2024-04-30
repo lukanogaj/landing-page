@@ -8,7 +8,7 @@ const HeroContent = () => {
 			<div className={styles.wrapper}>
 				<div className={styles.textHero}>
 					<div className={styles.heroHeading}>
-						<h1>
+						<h1 className={styles.heroHead}>
 							Introduce Your Product <br /> Quickly & Effectively
 						</h1>
 					</div>

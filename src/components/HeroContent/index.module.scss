@@ -20,7 +20,6 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	z-index: 1;
-	overflow: hidden;
 }
 
 .wrapper {
@@ -36,8 +35,8 @@
 	padding-left: 80px;
 	z-index: 2;
 }
-.heroHeading,
-h1 {
+.heroHeading{
+.heroHead {
 	display: block;
 	height: 132px;
 	color: #091133;
@@ -45,7 +44,7 @@ h1 {
 	letter-spacing: 0.1rem;
 	line-height: 1.5;
 	margin-bottom: 62px;
-}
+}}
 .heroParagraph {
 	height: 164px;
 	width: 538px;

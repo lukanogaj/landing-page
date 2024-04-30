@@ -1,49 +1,50 @@
 .sectionOne {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	// justify-content: space-around;
+	width: 1440px;
 	height: 100vh;
-	width: 100%;
-	padding-left: 200px;
-	margin: 600px 0px 0px 600px;
+	margin-top: 198px;
 }
 
 .sectionOne::before {
 	content: "";
 	background-image: url(../media/Icons/undraw.png);
 	position: absolute;
-	top: 160%;
-	left: 55%;
-	bottom: 6;
+	top: 115%;
+	left: 51%;
+	bottom: 0;
 	right: 0;
-	width: 1000px;
-	height: 1000px;
-	background-position: contain;
+	width: 50%;
+	height: 50%;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	z-index: -1;
+	background-size: contain;
+	z-index: 1;
 }
 
 .sectionOneText {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	width: 100%;
-	margin-top: 300px;
+	width: 540px;
+	margin-left: 198px;
+	height: 204px;
 
 	.sectioOneHeading {
-		display: block;
-		color: #091133;
-
-		letter-spacing: 0.2rem;
-		font-size: 15px;
-		margin-bottom: 3rem;
+		.headSec {
+			display: block;
+			color: #091133;
+			height: 100%;
+			width: 100%;
+			letter-spacing: 0.2rem;
+			font-size: 36px;
+			margin-bottom: 16px;
+		}
 	}
 	.sectionOneParagraph {
-		height: 330px;
-		font-size: 19px;
-		letter-spacing: 0.2rem;
-		line-height: 2;
+		font-size: 16px;
+		letter-spacing: 0.1rem;
+		margin-bottom: 100px;
+		line-height: 1.6;
 		color: #6f7cb2;
 	}
 }
@@ -51,26 +52,37 @@
 .icons {
 	display: flex;
 	justify-content: space-between;
-	width: 1000px;
-	margin-bottom: 210px;
+	margin: 80px 0 0 198px;
+	width: 540px;
+	height: 138px;
 
-	// .titleContent {
-	// }
+	.headIcon {
+		font-size: 18px;
+	}
+	.titleContent {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 285px;
+		height: 138px;
+	}
 
 	.icon {
 		width: 50px;
 		height: 50px;
-		margin-bottom: 20px;
+		margin-bottom: 14px;
 		background-position: 78% 10px;
 		background-repeat: no-repeat;
 		background-image: url(../media/Icons/Icon.png);
 	}
 
 	.iconsParagraph {
-		font-size: 17px;
+		font-size: 12px;
+		width: 285px;
+		height: 100%;
 		letter-spacing: 0.1rem;
 		color: #5d6970;
-		padding-top: 20px;
-		// margin: 10px;
+		height: 44px;
+		padding-top: 6px;
 	}
 }
