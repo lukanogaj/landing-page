@@ -3,9 +3,9 @@ import styles from "./index.module.scss";
 const PriceCard = () => {
 	return (
 		<div className={styles.priceCard}>
-			<div className={styles.priceCardHead}>
+			<div className={styles.priceCardIntro}>
 				<div className={styles.priceCardHeading}>
-					<h1>A Price To Suit Everyone</h1>
+					<h1 className={styles.headPriceCard}> A Price To Suit Everyone</h1>
 				</div>
 				<div className={styles.priceCardParagraph}>
 					<p>
@@ -21,12 +21,12 @@ const PriceCard = () => {
 					<h1>$40</h1>
 				</div>
 				<div className={styles.uiHeading}>
-					<h3>UI Design Kit</h3>
+					<h3 className={styles.uiHead}>UI Design Kit</h3>
 				</div>
 				<div className={styles.simple}>
 					<p>See, One price.Simple</p>
 					<div className={styles.purchaseBtn}>
-						<button>Purchase Now</button>
+						<button className={styles.priceCardBtn}> Purchase Now</button>
 					</div>
 				</div>
 			</div>
