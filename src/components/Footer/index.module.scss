@@ -4,10 +4,9 @@
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-	width: 100%;
-	height: 400px;
+	width: 1440px;
+	height: 216px;
 	background-color: #e7ecff;
-	margin: -310px;
 
 	.footerHeading {
 		display: flex;
@@ -15,18 +14,38 @@
 		align-items: center;
 		align-content: center;
 		text-align: center;
-		margin-top: auto;
-		height: 200px;
-		width: 85%;
+		height: 108px;
+		width: 1110px;
 		border-bottom: solid 2px #cdd1d4;
+		.footerBtn {
+			display: block;
+			.footBtn {
+				width: 109px;
+				height: 26px;
+				color: #fff;
+				background-color: #111b47;
+				font-size: 12px;
+				border: solid 2px #091133;
+			}
+		}
+	}
+
+	.footHeading {
+		display: block;
+		align-items: center;
+		width: 95px;
+		height: 38px;
+		.footHead {
+			font-size: 26px;
+		}
 	}
 
 	.footerNavbar {
 		display: flex;
-		// flex-direction: column;
 		justify-content: space-between;
-		height: 180px;
-		width: 85%;
+		width: 1110px;
+		height: 108px;
+		align-items: center;
 	}
 
 	.footerNav {
@@ -34,8 +53,8 @@
 		justify-content: space-between;
 		text-align: center;
 		align-items: center;
-		width: 265px;
-		height: 65px;
+		width: 245px;
+		height: 24px;
 		color: #929ecc;
 	}
 	.socialIcons {

@@ -13,11 +13,11 @@ const Footer = () => {
 				<div>
 					<img src={logo} alt="logo" />
 				</div>
-				<div>
-					<h1>Landing</h1>
+				<div className={styles.footHeading}>
+					<h1 className={styles.footHead}>Landing</h1>
 				</div>
 				<div className={styles.footerBtn}>
-					<button>Purchase Now</button>
+					<button className={styles.footBtn}>Purchase Now</button>
 				</div>
 			</div>
 			<div className={styles.footerNavbar}>
