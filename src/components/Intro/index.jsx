@@ -16,9 +16,9 @@ const Intro = () => {
 						<div className={styles.introParagraph}>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
 							Sapiente culpa hic dicta maiores architecto molestiae laborum,
-							iste quas ullam illo rem cum laboriosam nesciunt molestias velit
-							quidem sint! Laudantium voluptate atque, mollitia deleniti quis
-							libero nostrum aperiam nam eos saepe?
+							iste quas ullam illo rem cum laboriosam nesciunt <br />
+							<br /> molestias velit quidem sint! Laudantium voluptate atque,
+							mollitia deleniti quis libero nostrum aperiam nam eos saepe?
 						</div>
 						{card.buttonLabel ? (
 							<button className={styles.introButton}>{card.buttonLabel}</button>
