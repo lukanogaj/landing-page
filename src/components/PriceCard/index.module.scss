@@ -4,6 +4,7 @@
 	align-items: center;
 	height: 100%;
 	width: 1440px;
+	position: relative;
 	margin-top: 100px;
 }
 
@@ -11,14 +12,14 @@
 	content: "";
 	background-image: url(../media/Icons/rectangle.png);
 	position: absolute;
-	top: 450%;
-	left: 21.7%;
+	top: 100px;
+	left: 0;
 	bottom: 0;
 	right: 0;
 	width: 1440px;
-	height: 90%;
+	height: 100%;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	overflow: hidden;
 	// z-index: 1;
 }

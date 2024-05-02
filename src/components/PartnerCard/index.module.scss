@@ -3,88 +3,80 @@
 	justify-content: space-between;
 	width: 1440px;
 	height: 100%;
+	position: relative;
 	margin: 30px 0px 0px 365px;
+}
 
-	// Background image
-	.samsung {
-		display: flex;
-		align-items: center;
-		text-align: center;
-		height: 100%;
+.main::before {
+	content: "";
+	position: absolute;
+	top: 100px;
+	left: 650px;
+	bottom: 0;
+	right: 0;
+	width: 90%;
+	height: 90%;
+	background-image: url(../media/Icons/samsung.png);
+	background-position: contain;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1;
+}
+
+.partnerCardText {
+	display: flex;
+	flex-direction: column;
+	width: 520px;
+	height: 253px;
+	margin-top: 161px;
+
+	.headPartner {
+		font-size: 36px;
+		color: #091133;
+		margin-bottom: 16px;
+	}
+
+	.partnerCardParagraph {
 		width: 100%;
+		font-size: 16px;
+		letter-spacing: 0.1rem;
+		line-height: 2;
+		color: #6f7cb2;
+		margin-top: 30px;
+	}
+}
+
+.partnerCardIcons {
+	display: flex;
+	flex-direction: column;
+	width: 520px;
+	height: 520px;
+	margin-top: 69px;
+	.iconsRow {
+		display: flex;
+		justify-content: space-between;
 	}
 
-	.samsung::before {
-		content: "";
-		position: absolute;
-		top: 357%;
-		left: 52%;
-		bottom: 0;
-		right: 0;
-		width: 80%;
-		height: 80%;
-		background-image: url(../media/Icons/samsung.png);
-		background-position: contain;
+	.icons {
+		margin-right: 30px;
+	}
+	.headIconPartner {
+		font-size: 16px;
+		color: #000;
+		margin: 16px 0px 6px 0px;
+	}
+
+	.iconsParagraph {
+		font-size: 12px;
+		color: #000;
+	}
+	// Background image
+	.icon {
+		width: 50px;
+		height: 50px;
+		margin: 30px 0px;
+		background-position: 78% 10px;
 		background-repeat: no-repeat;
-		background-size: contain;
-		z-index: 1;
-	}
-
-	.partnerCardText {
-		display: flex;
-		flex-direction: column;
-		width: 520px;
-		height: 253px;
-		margin-top: 161px;
-
-		.headPartner {
-			font-size: 36px;
-			color: #091133;
-			margin-bottom: 16px;
-		}
-
-		.partnerCardParagraph {
-			width: 100%;
-			font-size: 16px;
-			letter-spacing: 0.1rem;
-			line-height: 2;
-			color: #6f7cb2;
-			margin-top: 30px;
-		}
-	}
-
-	.partnerCardIcons {
-		display: flex;
-		flex-direction: column;
-		width: 520px;
-		height: 520px;
-		margin-top: 69px;
-		.iconsRow {
-			display: flex;
-			justify-content: space-between;
-		}
-
-		.icons {
-			margin-right: 30px;
-		}
-		.headIconPartner {
-			font-size: 16px;
-			color: #000;
-			margin: 16px 0px 6px 0px;
-		}
-
-		.iconsParagraph {
-			font-size: 12px;
-			color: #000;
-		}
-		// Background image
-		.icon {
-			width: 50px;
-			height: 50px;
-			margin: 30px 0px;
-			background-position: 78% 10px;
-			background-repeat: no-repeat;
-			background-image: url(../media/Icons/Icon.png);
-		}
+		background-image: url(../media/Icons/Icon.png);
 	}
 }

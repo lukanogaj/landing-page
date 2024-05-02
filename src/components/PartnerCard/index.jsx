@@ -69,8 +69,6 @@ const PartnerCard = () => {
 					</div>
 				</div>
 			</div>
-
-			<div className={styles.samsung}></div>
 		</div>
 	);
 };
