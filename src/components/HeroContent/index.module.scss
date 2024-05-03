@@ -80,3 +80,29 @@
 		}
 	}
 }
+
+// Media Queries
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.heroContent {
+		background-color: #e7ecff;
+	}
+
+	.heroContent::before {
+		content: "";
+		background-image: url(../media/Icons/gear.png);
+		top: 50px;
+		left: 710px;
+		bottom: 0;
+		right: 0;
+		width: 30%;
+		height: 30%;
+	}
+
+	.heroHead {
+		font-size: 38px !important;
+	}
+
+	.heroParagraph {
+		font-size: 16px !important;
+	}
+}

@@ -43,3 +43,29 @@
 		}
 	}
 }
+
+// Media Queries
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.navbar {
+		margin: auto;
+		justify-content: space-evenly;
+	}
+
+	.navbarItems {
+		width: 200px !important;
+	}
+
+	.pageHeading,
+	h2 {
+		width: 75px;
+		height: 30px;
+		font-size: 20px !important;
+		letter-spacing: 0;
+		text-align: center;
+		margin: auto;
+	}
+
+	.btnNavbar {
+		padding-right: 200px !important;
+	}
+}
