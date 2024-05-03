@@ -80,3 +80,32 @@
 		background-image: url(../media/Icons/Icon.png);
 	}
 }
+
+// Media Queries
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.main {
+		.headPartner {
+			font-size: 26px;
+			width: 300px;
+		}
+
+		.partnerCardParagraph {
+			font-size: 12px;
+		}
+	}
+
+	.main::before {
+		content: "";
+		left: 630px;
+		width: 30%;
+		height: 40%;
+	}
+
+	.headIconPartner {
+		font-size: 14px !important;
+		margin-bottom: 15px !important;
+	}
+	.iconsParagraph {
+		font-size: 10px !important;
+	}
+}
