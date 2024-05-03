@@ -1,6 +1,7 @@
 import styles from "./index.module.scss";
 import dataForIntro from "../DataForIntro";
 
+
 const Intro = () => {
 	return (
 		<div className={styles.intro}>
