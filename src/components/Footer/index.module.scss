@@ -67,3 +67,19 @@
 		color: #929ecc;
 	}
 }
+
+// Media Queries
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.footer {
+		width: 100%;
+		margin-right: 300px;
+	}
+
+	.footHead {
+		font-size: 24px;
+	}
+
+	.footerNavbar {
+		font-size: 12px;
+	}
+}

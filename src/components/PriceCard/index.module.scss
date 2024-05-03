@@ -46,7 +46,7 @@
 ///////////////////////////////////////
 
 .priceCardParagraph {
-	display: flex;
+	display: block;
 	width: 100%;
 	color: #6f7cb2;
 	text-align: center;
@@ -108,5 +108,30 @@
 			color: #fff;
 			border: solid 2px #091133;
 		}
+	}
+}
+
+// Media Queries
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.priceCard {
+		background-color: #e7ecff;
+		margin-right: 220px;
+	}
+
+	.priceCard::before {
+		content: "";
+		background-image: none;
+	}
+
+	.headPriceCard {
+		font-size: 26px !important;
+	}
+
+	.priceCardParagraph {
+		font-size: 12px;
+	}
+
+	.headingTotal {
+		font-size: 36px !important;
 	}
 }
